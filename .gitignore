@@ -1,0 +1,16 @@
+# Datasets and OS files
+data/
+__MACOSX/
+.DS_Store
+
+# Output predictions (these change constantly and get large)
+output/*.tsv
+
+# Python environments & caches
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+.venv/
+.ipynb_checkpoints/
